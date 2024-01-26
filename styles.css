@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.card-design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw; /* Optional: Set height to observe vertical centering */
+    background-color: lightblue; /* Optional: For visual clarity */
+  }
+  
+  .card {
+    height: 10em;
+    width: 20em;
+    background-color: lightgreen; /* Optional: For visual clarity */
+    padding: 30px;
+    text-align: center;
+     /* Optional: Add some padding */
+  }
+
+  .card h1,h2{
+    text-align: center;
+  }
+
+  .card button {
+    padding: 5px;
+    margin: 10px 0px;
+    background-color: rgb(180, 70, 70);
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
